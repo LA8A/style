@@ -1,0 +1,1101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,purple);
+}
+
+#aside1{
+    background-color: brown;
+    height: 190px;
+}
+
+#aside1:hover{
+    background-color: black;
+}
+
+#main1{
+    float: right;
+    width: 65.13%;
+    height: 1000px;
+    background-color: red;
+    margin-top: 6px;
+    margin: 2%;
+    border: 25px solid black;
+    animation-name: main1;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+}
+
+#main1:hover{
+    background-color: darkolivegreen !important;
+}
+
+/* @keyframes main1{
+
+    10%{
+        background-color: whitesmoke;
+    }
+
+    20%{
+        background-color: salmon;
+    }
+
+    30%{
+        background-color: aquamarine;
+    }
+
+    40%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: cadetblue;
+    }
+
+    60%{
+        background-color: royalblue;
+    }
+
+    70%{
+        background-color: darkblue;
+    }
+
+    80%{
+        background-color: darkcyan;
+    }
+
+    90%{
+        background-color: darkgoldenrod;
+    }
+
+    100%{
+        background-color: whitesmoke;
+    }
+
+} */
+
+#div1{
+    width: 500px;
+    height: 480px;
+    text-align: center;
+    float: right;
+    direction: rtl;
+    position: absolute;
+    background-color: peru;
+}
+
+#h21{
+    font-size: 20px;
+}
+
+#img1{
+    float: right;
+    background: black;
+    width: 170px;
+    height: 160px;
+    border-radius: 40%;
+    margin-top: 5px;
+    border: 10px solid black;
+}
+
+#img1:hover{
+    border: 10px solid white !important;
+}
+
+#img2{
+    float: left;
+    width: 16.7%;
+    margin-top: 2%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 15px solid black;
+    border-radius: 25px;
+}
+
+#img2:hover{
+    border: 10px solid white !important;
+}
+
+#img3{
+    width: 400px;
+    height: 300px;
+    border: 8px solid black;
+    border-radius: 40px;
+}
+
+#a1{
+    width: 297px;
+    line-height: 86px;
+    border-radius: 25px;
+    direction: rtl;
+    background-color: blue;
+    color: aqua;
+    float: left;
+    font-size: 50px;
+    padding: 10px 21px 20px 21px;
+    border: 10px solid black;
+    margin-top: 21px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    animation-name: a1;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+
+#a1:hover{
+    background-color: black !important;
+    border: 10px solid white;
+}
+
+@keyframes a1{
+    from{
+        background-color: gold;
+    }
+    to{
+        background-color: silver;
+    }
+}
+
+#a2{
+    width: 297px;
+    line-height: 86px;
+    direction: rtl;
+    border-radius: 25px;
+    background: silver;
+    color: aqua;
+    float: right;
+    font-size: 50px;
+    padding: 10px 7px 20px 7px;
+    border: 10px solid black;
+    margin-top: 21px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    animation-name: a2;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+
+#a2:hover{
+    background-color: black !important;
+    border: 10px solid white;
+}
+
+@keyframes a2{
+    from{
+        background-color: gold;
+    }
+    to{
+        background-color: silver;
+    }
+}
+
+#a3{
+    width: 297px;
+    line-height: 86px;
+    border-radius: 25px;
+    direction: rtl;
+    background: gold;
+    color: aqua;
+    float: right;
+    font-size: 50px;
+    padding: 10px 26px 20px 21px;
+    border: 10px solid black;
+    margin-top: 21px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    animation-name: a2;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+
+#a3:hover{
+    background-color: black !important;
+    border: 10px solid white;
+}
+
+@keyframes a3{
+    from{
+        background-color: gold;
+    }
+    to{
+        background-color: silver;
+    }
+}
+
+@media only screen and (min-width: 1340px){
+    #aside1{
+        background-color: brown;
+        height: 190px;
+    }
+    
+    #main1{
+        float: right;
+        width: 65.13%;
+        height: 1000px;
+        margin-top: 6px;
+        margin: 2%;
+        border: 25px solid black;
+    }
+
+    #div1{
+        width: 500px;
+        height: 480px;
+    }
+    
+    #img1{
+        float: right;
+        background: white;
+        width: 170px;
+        height: 160px;
+        border-radius: 40%;
+        margin-top: 5px;
+        border: 10px solid black;
+    }
+    
+    #img2{
+        float: left;
+        width: 16.7%;
+        margin-top: 2%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        border: 15px solid black;
+        border-radius: 25px;
+    }
+    
+    #img3{
+        width: 400px;
+        height: 300px;
+        border: 8px solid black;
+        border-radius: 40px;
+    }
+    
+    #a1{
+        width: 297px;
+        line-height: 86px;
+        border-radius: 25px;
+        float: left;
+        font-size: 50px;
+        padding: 10px 21px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+    
+    #a2{
+        width: 297px;
+        line-height: 86px;
+        border-radius: 25px;
+        float: right;
+        font-size: 50px;
+        padding: 10px 7px 20px 7px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+    
+    #a3{
+        width: 297px;
+        line-height: 86px;
+        border-radius: 25px;
+        float: right;
+        font-size: 50px;
+        padding: 10px 26px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+}
+
+@media only screen and (min-width: 1339px) and (max-width: 1357px){
+    #aside1{
+        background-color: brown;
+        height: 190px;
+    }
+    
+    #main1{
+        float: right;
+        width: 65.13%;
+        height: 1000px;
+        margin-top: 6px;
+        margin: 2%;
+        border: 25px solid black;
+    }
+
+    #div1{
+        width: 500px;
+        height: 650px;
+        float: right;
+    }
+    
+    #img1{
+        float: right;
+        background: white;
+        width: 140px;
+        height: 140px;
+        border-radius: 40%;
+        margin-top: 5px;
+        border: 10px solid black;
+    }
+    
+    #img2{
+        float: left;
+        width: 16.7%;
+        margin-top: 2%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        border: 15px solid black;
+        border-radius: 25px;
+    }
+    
+    #img3{
+        width: 450px;
+        height: 350px;
+        border: 8px solid black;
+        border-radius: 40px;
+    }
+    
+    #a1{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: left;
+        font-size: 40px;
+        padding: 10px 21px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+    
+    #a2{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: right;
+        font-size: 50px;
+        padding: 10px 7px 20px 7px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+    
+    #a3{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: right !important;
+        font-size: 50px;
+        padding: 10px 26px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1340px){
+    #aside1{
+        background-color: brown;
+        height: 190px;
+    }
+    
+    #main1{
+        float: right;
+        width: 65.13%;
+        height: 1000px;
+        margin-top: 6px;
+        margin: 2%;
+        border: 25px solid black;
+    }
+
+    #div1{
+        width: 500px;
+        height: 650px;
+        float: right;
+    }
+    
+    #img1{
+        float: right;
+        background: white;
+        width: 140px;
+        height: 140px;
+        border-radius: 40%;
+        margin-top: 5px;
+        border: 10px solid black;
+    }
+    
+    #img2{
+        float: left;
+        width: 16.7%;
+        margin-top: 2%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        border: 15px solid black;
+        border-radius: 25px;
+    }
+    
+    #img3{
+        width: 450px;
+        height: 350px;
+        border: 8px solid black;
+        border-radius: 40px;
+    }
+    
+    #a1{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: left;
+        font-size: 40px;
+        padding: 10px 21px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+    
+    #a2{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: right;
+        font-size: 50px;
+        padding: 10px 7px 20px 7px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+    
+    #a3{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: right !important;
+        font-size: 50px;
+        padding: 10px 26px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1215px){
+    #aside1{
+        background-color: brown;
+        height: 190px;
+    }
+    
+    #main1{
+        float: right;
+        width: 65.13%;
+        height: 1000px;
+        margin-top: 6px;
+        margin: 2%;
+        border: 25px solid black;
+    }
+
+    #div1{
+        width: 500px;
+        height: 650px;
+        float: right;
+    }
+    
+    #img1{
+        float: right;
+        background: white;
+        width: 140px;
+        height: 140px;
+        border-radius: 40%;
+        margin-top: 5px;
+        border: 10px solid black;
+    }
+    
+    #img2{
+        float: left;
+        width: 16.7%;
+        margin-top: 2%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        border: 15px solid black;
+        border-radius: 25px;
+    }
+    
+    #img3{
+        width: 450px;
+        height: 350px;
+        border: 8px solid black;
+        border-radius: 40px;
+    }
+    
+    #a1{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: left;
+        font-size: 40px;
+        padding: 10px 21px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+    
+    #a2{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: right;
+        font-size: 50px;
+        padding: 10px 7px 20px 7px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+    
+    #a3{
+        width: 270px;
+        line-height: 80px;
+        border-radius: 25px;
+        float: right !important;
+        font-size: 50px;
+        padding: 10px 26px 20px 21px;
+        border: 10px solid black;
+        margin-top: 21px;
+        margin-right: 11px;
+        margin-bottom: 16px;
+        margin-left: 11px;
+    }
+}
+
+@media only screen and (min-width: 1008px) and (max-width: 1200px) {
+    #img1{
+    width: 135px;
+    height: 125px;
+    margin-top: 3px;
+    border: 10px solid ;
+    }
+    #img2{
+        float: left;
+        width: 13%;
+        margin-top: 1%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border: 10px solid black;
+    }
+    #img3{
+        width: 380px;
+        height: 285px;
+        border: 5px solid black;
+    }
+    #a1{
+        float: right;
+        width: 240px;
+        line-height: 76px;
+        font-size: 35px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #a2{
+        width: 240px;
+        line-height: 76px;
+        font-size: 50px;
+        font-size: 35px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #a3{
+        width: 240px;
+        line-height: 76px;
+        font-size: 50px;
+        font-size: 35px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #main1{
+        float: right;
+        width: 68%;
+        margin-top: 6px;
+        margin: 1%;
+        border: 15px solid black;
+    }
+    #div1{
+        width: 450px;
+        height: 460px;
+    }
+    #aside1{
+        height: 135px;
+    }
+}
+
+@media only screen and (min-width: 870px) and (max-width: 1008px) {
+    #img1{
+    width: 95px;
+    height: 90px;
+    border-radius: 35%;
+    margin-top: 3px;
+    border: 7px solid black;
+    }
+    #img2{
+        float: left;
+        width: 13%;
+        margin-top: 1%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border: 10px solid black;
+    }
+    #img3{
+        width: 380px;
+        height: 285px;
+        border: 5px solid black;
+    }
+    #a1{
+        float: right;
+        width: 210px;
+        line-height: 65px;
+        font-size: 25px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #a2{
+        width: 210px;
+        line-height: 65px;
+        font-size: 29px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #a3{
+        width: 210px;
+        line-height: 65px;
+        font-size: 28px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #main1{
+        float: right;
+        width: 70%;
+        margin-top: 6px;
+        margin: 1%;
+        border: 12px solid black;
+    }
+    #div1{
+        width: 450px;
+        height: 460px;
+    }
+    #aside1{
+        height: 130px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 870px) {
+    #img1{
+    width: 75px;
+    height: 70px;
+    border-radius: 35%;
+    margin-top: 3px;
+    border: 7px solid black;
+    }
+    #img2{
+        float: left;
+        width: 13%;
+        margin-top: 1%;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        margin-left: 7px;
+        border: 7px solid black;
+    }
+    #img3{
+        width: 300px;
+        height: 230px;
+        border: 5px solid black;
+    }
+    #div1{
+        width: 370px;
+        height: 420px;
+    }
+    #main1{
+        float: right;
+        width: 70%;
+        margin-top: 6px;
+        margin: 1%;
+        border: 9px solid black;
+    }
+    #a1{
+        float: right;
+        width: 170px;
+        line-height: 50px;
+        font-size: 25px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 13px;
+        margin-right: 7px;
+        margin-bottom: 10px;
+        margin-left: 7px;
+    }
+    #a2{
+        width: 170px;
+        line-height: 50px;
+        font-size: 27px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 13px;
+        margin-right: 7px;
+        margin-bottom: 10px;
+        margin-left: 7px;
+    }
+    #a3{
+        width: 170px;
+        line-height: 50px;
+        font-size: 25px;
+        padding-top: 7px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 7px solid black;
+        margin-top: 13px;
+        margin-right: 7px;
+        margin-bottom: 10px;
+        margin-left: 7px;
+    }
+    #aside1{
+        height: 110px;
+    }
+}
+
+@media only screen and (min-width: 553px) and (max-width: 715px) {
+    #img1{
+    width: 55px;
+    height: 55px;
+    border-radius: 35%;
+    margin-top: 3px;
+    border: 5px solid black;
+    }
+    #img2{
+        float: left;
+        width: 13%;
+        margin-top: 1%;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        margin-left: 7px;
+        border: 6px solid black;
+    }
+    #img3{
+        width: 230px;
+        height: 160px;
+        border: 5px solid black;
+    }
+    #div1{
+        width: 270px;
+        height: 400px;
+    }
+    #main1{
+        float: right;
+        width: 72%;
+        margin-top: 6px;
+        margin: 1%;
+        border: 8px solid black;
+    }
+    #a1{
+        float: right;
+        width: 140px;
+        line-height: 35px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 5px solid black;
+        margin-top: 11px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+    }
+    #a2{
+        width: 140px;
+        line-height: 35px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 5px solid black;
+        margin-top: 11px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+    }
+    #a3{
+        width: 140px;
+        line-height: 35px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 5px solid black;
+        margin-top: 11px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+    }
+    #aside1{
+        height: 85px;
+    }
+}
+
+@media only screen and (max-width: 553px) {
+    #img1{
+        position: absolute;
+        top: 5%;
+        right:33%;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 35%;
+        border: 8px solid black;
+    }
+    #img2{
+        float: left;
+        width: 0%;
+        border: 0px solid black;
+    }
+    #img3{
+        width: 260px;
+        height: 200px;
+        border: 7px solid black;
+    }
+    #div1{
+        width: 280px;
+        height: 450px;
+    }
+    #main1{
+        float: right;
+        width: 100%;
+        height: 500px;
+        margin-top: 6px;
+        margin: 1%;
+        border: 8px solid black;
+    }
+    #a1{
+        position: absolute;
+        top: auto;
+        top: 180px;
+        left: auto;
+        left: 25px;
+        position: relative;
+        width: 260px;
+        line-height: 50px;
+        font-size: 40px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 8px solid black;
+        margin-top: 11px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+    }
+    #a2{
+        position: absolute;
+        top: auto;
+        top: 180px;
+        left: auto;
+        position: relative;
+        width: 260px;
+        line-height: 50px;
+        font-size: 40px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 8px solid black;
+        margin-top: 11px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+    }
+    #a3{
+        position: absolute;
+        top: auto;
+        top: 180px;
+        left: auto;
+        position: relative;
+        width: 260px;
+        line-height: 55px;
+        font-size: 40px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 8px solid black;
+    }
+    #aside1{
+        height: 650px;
+    }
+}
+
+/* @media only print and (min-width: 1px) and (max-witdh: 10000px) {
+    #img3{
+        width: 150px;
+        height: 100px;
+        border: 5px solid black;
+    }
+    #img1{
+        display: none;
+        width: 55px;
+        height: 55px;
+        border-radius: 35%;
+        margin-top: 3px;
+        border: 5px solid black;
+    }
+    #img2{
+        display: none;
+        float: left;
+        width: 13%;
+        margin-top: 1%;
+        margin-right: 7px;
+        margin-bottom: 7px;
+        margin-left: 7px;
+        border: 6px solid black;
+    }
+    #div1{
+        display: none;
+        width: 270px;
+        height: 400px;
+    }
+    #main1{
+        display: none;
+        width: 100%;
+        margin: 3%;
+        border: 15px solid black;
+    }
+    #a1{
+        display: none;
+        float: right;
+        width: 140px;
+        line-height: 35px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 12px;
+        padding-left: 2px;
+        border: 5px solid black;
+        margin-top: 11px;
+        margin-right: 1px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+    }
+    #a2{
+    display: none;
+    width: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+    #a3{
+    display: none;
+    width: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 0px solid black;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+    #aside1{
+    display: none;
+    height: 0px;
+}
+}*/
